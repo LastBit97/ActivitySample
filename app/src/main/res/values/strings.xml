@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Application</string>
+    <string name="app_name">Авторизация</string>
+    <string name="enter_number">Введите номер телефона</string>
 </resources>
