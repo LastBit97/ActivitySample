@@ -18,4 +18,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="txtSms">Вам отправлена смс с кодом</string>
+    <string name="txtCode">Код</string>
+    <string name="txtAccept">Я принимаю пользовательское соглашение</string>
+    <string name="btnLogin">Войти</string>
 </resources>
