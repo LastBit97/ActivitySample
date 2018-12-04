@@ -21,13 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void vkLogin(View view){
         Intent browseIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com"));
+        startActivity(browseIntent);
     }
 
     public  void facebookLogin(View view){
         Intent browseIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://ru-ru.facebook.com"));
+        startActivity(browseIntent);
     }
 
     public void googleLogin(View view){
         Intent browseIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://accounts.google.com"));
+        startActivity(browseIntent);
     }
 }

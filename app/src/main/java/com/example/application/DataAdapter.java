@@ -47,9 +47,9 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            photoView = (ImageView) itemView.findViewById(R.id.image);
-            nameView = (TextView) itemView.findViewById(R.id.phone);
-            phoneView = (TextView) itemView.findViewById(R.id.name);;
+            photoView = (ImageView) itemView.findViewById(R.id.photo);
+            nameView = (TextView) itemView.findViewById(R.id.name);
+            phoneView = (TextView) itemView.findViewById(R.id.phone);;
         }
     }
 }

@@ -2,6 +2,7 @@ package com.example.application;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -15,9 +16,11 @@ public class ContactsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
 
+        setPersonList();
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.list);
         DataAdapter adapter = new DataAdapter(this, personList);
         recyclerView.setAdapter(adapter);
+        recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
     }
 
     private void setPersonList(){
